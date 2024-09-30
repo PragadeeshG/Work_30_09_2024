@@ -1,0 +1,15 @@
+create table if not exists places_master_sector_info_model(
+places_master_key Integer not null,
+place_code varchar(255) null,
+admiral_chart varchar(255) null,
+latitude_decimal varchar(255) null,
+longitude_decimal varchar(255) null,
+chart_cpde varchar(255) null,
+reference_key varchar(255) null,
+branch_location varchar(255) null,
+branch_code varchar(255) null,
+branch_routing_value varchar(255) null,
+creation_date varchar(255) null,
+entity_state varchar(255) null,
+modified_date varchar(255) null,
+constraint places_master_sector_info_model_pk primary key(places_master_key));
